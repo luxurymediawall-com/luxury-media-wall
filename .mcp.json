@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "imagekit_devtools": {
+      "type": "http",
+      "url": "https://devtools-mcp.imagekit.io/mcp"
+    },
+    "imagekit_api": {
+      "type": "http",
+      "url": "https://api-mcp.imagekit.io/mcp"
+    },
+    "supabase": {
+      "type": "http",
+      "url": "https://mcp.supabase.com/mcp?project_ref=bzlyasfqomdvnlpjjaky&features=docs%2Caccount%2Cdatabase%2Cdebugging%2Cdevelopment%2Cfunctions%2Cbranching"
+    },
+    "google-ads": {
+      "command": "/full/path/to/your/project/.venv/bin/python",
+      "args": [
+        "/full/path/to/your/project/server.py"
+      ]
+    },
+    "posthell": {
+      "type": "http",
+      "url": "https://www.posthell.com/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${POSTHELL_API_KEY}"
+      }
+    }
+  }
+}
